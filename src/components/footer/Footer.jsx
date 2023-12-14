@@ -1,5 +1,6 @@
 import React from 'react'
-import {Logo,Facebook,Instagram,Tiktok,Linkedin,Twitter,Youtube} from './images/Logo'
+import {Logo,Facebook,Instagram,Tiktok,Linkedin,Twitter,Youtube} from '../../assets/images/Logo'
+import './Footer.css'
 
 const Footer = () => {
 

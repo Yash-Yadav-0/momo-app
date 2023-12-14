@@ -1,5 +1,6 @@
 import React from 'react'
-import {Logo,Facebook,Instagram,Tiktok} from './images/Logo'
+import {Logo,Facebook,Instagram,Tiktok} from '../../assets/images/Logo'
+import './Navbar.css'
 
 const Navbar = () => {
 

@@ -1,0 +1,46 @@
+.home-page{
+    margin: auto;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+  }
+  .plate-image{
+    width: 622px;
+    height: 434px;
+    margin-right: 75px;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+  }
+  .ellipse-orange{
+    margin-left: 256px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 0%;
+    width: 880px;
+    height: 880px;
+    flex-shrink: 0;
+    top: -15px;
+  }
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 18px;
+  }
+  .home-content-button{
+    background-color:var(--secondary);
+    color: white;
+    padding: 20px 40px;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    width: fit-content;
+    gap: 8px;
+    border-radius: 100px;
+  }

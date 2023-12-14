@@ -1,7 +1,7 @@
 
-import Footer from "./assets/Footer"
-import Navbar from "./assets/Navbar"
-import Home from './assets/Home'
+import Footer from "./components/footer/Footer"
+import Navbar from "./components/header/Navbar"
+import Home from './components/home/Home'
 
 const App=()=> {
 
