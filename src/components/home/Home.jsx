@@ -11,7 +11,7 @@ const PaintBrushText=styled.span`
     background-repeat: no-repeat;
     display: inline-block;
     color: white;
-    padding: 3px 30px;
+    padding: 6px 30px;
 `;
 
 const Home = () => {

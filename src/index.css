@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }
 :root{
   --primary:#D95103;
@@ -15,7 +19,6 @@ html{
 .neutral-text{
   color: var(--neutral);
   font-family: proxima-nova, sans-serif;
-  font-style: normal;
   font-weight: 400;
 }
 p{
@@ -25,27 +28,15 @@ p{
 .secondary-text{
   color: var(--secondary);
   font-family: proxima-nova, sans-serif;
-  font-style: normal;
   font-size: 25px;
-  font-weight: 700;
-  line-height: 120%;
   margin: 0;
 }
 .big-text-one{
   font-size: 61px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
 }
 .big-text-two{
   font-size: 39px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
 }
 .big-text-three{
   font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
 }
