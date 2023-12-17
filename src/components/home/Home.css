@@ -42,3 +42,25 @@
     gap: 8px;
     border-radius: 100px;
   }
+  .home_about_us{
+    display: inline-flex;
+    gap:86px;
+    padding: 64px 156px;
+  }
+  .about_us_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    height: auto;
+  }
+  .recipes_home,
+  .recipes_home_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  

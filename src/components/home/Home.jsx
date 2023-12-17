@@ -4,6 +4,7 @@ import { Ellipse} from '../../assets/images/Logo'
 import './Home.css'
 import styled from 'styled-components'
 import PaintBrushSvg from '../../assets/images/PaintBrushSvg.svg'
+import thumbsUp from '../../assets/images/thumbsUp.png'
 
 const PaintBrushText=styled.span`
     background: url(${PaintBrushSvg});
@@ -15,6 +16,11 @@ const PaintBrushText=styled.span`
 `;
 
 const Home = () => {
+  const Menus =[
+    {id:1, value:"Buff"},
+    {id:2, value:"Chicken"},
+    {id:3, value:"Veg"},
+  ];
   return (
     <div>
     <div className='home-page'>
@@ -42,14 +48,34 @@ const Home = () => {
     </div>
     <div className="home_about_us">
       <div className="about_us_image">
-
+        <img src={thumbsUp} alt='thumbsUp'/>
       </div>
       <div className="about_us_content">
-        <p>Why Costomer Love Us</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        <h3 className='big-text-two'>Why Costomer <span style={{color:'var(--primary)'}}>Love Us</span></h3>
+        <p className='neutral-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
           Autem id, fugit hic tempore nemo fuga temporibus velit voluptas obcaecati 
           sapiente iure inventore, doloremque, illum asperiores recusandae rem eaque mollitia? Minus.</p>
-        <button>Explore Our Story</button>  
+        <button className='home-content-button'>Explore Our Story</button>  
+      </div>
+    </div>
+    <div className="recipes_home">
+      <div className='recipes_home_heading'>
+        <h3>Our Most Popular Recipe</h3>
+        <p className="neutral-text">Browse through a varieties of recipes with fresh ingredients selected only from the best places</p>
+      </div>
+      <div>
+        {Menus.map((item)=>(
+          <button key={item.id}>{item.value}</button>
+        ))}
+        {/* {Menus.map((Menu, index) => (
+          <button key={index} className='home-content-button'>{Menu}</button>
+        ))} */}
+    </div>
+      <div>
+        <h1>Photos</h1>
+      </div>
+      <div>
+        <button className="home-content-button">Explore Our Menu</button>
       </div>
     </div>
     </div>
