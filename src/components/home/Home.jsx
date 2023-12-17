@@ -16,6 +16,7 @@ const PaintBrushText=styled.span`
 
 const Home = () => {
   return (
+    <div>
     <div className='home-page'>
       <div className='home-content'>
           <p style={{color:'var(--neutral)', marginBottom:'-20px'}}> RESTURANT</p>
@@ -37,6 +38,19 @@ const Home = () => {
       <div className='plate-image'><Plate/></div>
       <div className='ellipse-orange'><Ellipse/></div>
       
+    </div>
+    </div>
+    <div className="home_about_us">
+      <div className="about_us_image">
+
+      </div>
+      <div className="about_us_content">
+        <p>Why Costomer Love Us</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Autem id, fugit hic tempore nemo fuga temporibus velit voluptas obcaecati 
+          sapiente iure inventore, doloremque, illum asperiores recusandae rem eaque mollitia? Minus.</p>
+        <button>Explore Our Story</button>  
+      </div>
     </div>
     </div>
   )
