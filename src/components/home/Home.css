@@ -63,4 +63,25 @@
     align-items: center;
     gap: 48px;
   }
-  
+.recipes_button{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.recipe_they_want{
+  display: flex;
+  justify-content: center;
+  padding: 80px 156px;
+}
+.kitchen-show{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../../assets/images/kitchen_show.jpeg');
+  background-repeat: no-repeat;
+  background-position-y:-120px;
+  height: 1013px;
+  margin-top: 50px;
+  background-size: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}

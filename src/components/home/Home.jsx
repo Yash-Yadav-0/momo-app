@@ -5,6 +5,7 @@ import './Home.css'
 import styled from 'styled-components'
 import PaintBrushSvg from '../../assets/images/PaintBrushSvg.svg'
 import thumbsUp from '../../assets/images/thumbsUp.png'
+import kitchen_show from '../../assets/images/kitchen_show.jpeg'
 
 const PaintBrushText=styled.span`
     background: url(${PaintBrushSvg});
@@ -60,16 +61,13 @@ const Home = () => {
     </div>
     <div className="recipes_home">
       <div className='recipes_home_heading'>
-        <h3>Our Most Popular Recipe</h3>
+        <h3 className='big-text-two'>Our <span style={{color:'var(--primary)'}}>Most Popular </span>Recipies</h3>
         <p className="neutral-text">Browse through a varieties of recipes with fresh ingredients selected only from the best places</p>
       </div>
-      <div>
+      <div className='recipes_button'>
         {Menus.map((item)=>(
-          <button key={item.id}>{item.value}</button>
+          <button className='home-content-button' key={item.id}>{item.value}</button>
         ))}
-        {/* {Menus.map((Menu, index) => (
-          <button key={index} className='home-content-button'>{Menu}</button>
-        ))} */}
     </div>
       <div>
         <h1>Photos</h1>
@@ -77,6 +75,13 @@ const Home = () => {
       <div>
         <button className="home-content-button">Explore Our Menu</button>
       </div>
+    </div>
+    <div>
+      <div className="recipe_they_want big-text-two">
+        <p><span style={{color:'var(--primary)'}}>We Offer People </span> The Service They Want</p></div>
+    </div>
+    <div className='kitchen-show'>
+      
     </div>
     </div>
   )
