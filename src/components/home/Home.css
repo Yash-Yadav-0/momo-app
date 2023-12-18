@@ -31,21 +31,36 @@
     gap: 18px;
   }
   .home-content-button{
+    display: flex;
     background-color:var(--secondary);
     color: white;
     padding: 20px 40px;
-    justify-content: center;
-    display: flex;
-    font-size: 16px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     width: fit-content;
-    gap: 8px;
+    gap: 0.5rem;
+    cursor: pointer;
     border-radius: 100px;
+    transition: background-color 0.3s ease;
   }
+  .home-content-button:hover{
+    background-color: #095352;
+  }
+/* .home-content-button svg{
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  order: -1;
+} */
+
   .home_about_us{
-    display: inline-flex;
+    display: flex;
     gap:86px;
     padding: 64px 156px;
+    justify-content: center;
+    align-items: center;
   }
   .about_us_content{
     display: flex;
@@ -59,7 +74,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     gap: 48px;
   }
@@ -73,15 +87,47 @@
   justify-content: center;
   padding: 80px 156px;
 }
+/*Menu Slider in Home page */
+.menuSlider{
+  display: flex;
+  gap: 44px;
+}
+.menuSlider-Card{
+  background-color: whitesmoke;
+}
+.menuSliderImage{
+  width: 260px;
+  height: 189px;
+  flex-shrink: 0;
+}
+.menuSliderImageDiv{
+  display: flex;
+  padding: 34px 14px 33px 14px;
+}
+.menuSliderTextSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.slick-slide >div{
+  margin: 0 10px;
+}
+
+/*Process Behind The making background*/
 .kitchen-show{
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../../assets/images/kitchen_show.jpeg');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('./homepageImage/kitchen_show.jpeg');
   background-repeat: no-repeat;
-  background-position-y:-120px;
-  height: 1013px;
-  margin-top: 50px;
+  height: 100vh;
+  width: 100vw;
   background-size: 100%;
   display: block;
   align-items: center;
   justify-content: center;
   object-fit: contain;
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
 }

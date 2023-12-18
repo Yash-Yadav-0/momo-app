@@ -48,5 +48,6 @@ html{
 .copyright{
     margin-top: -25px;
     margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 10px;
 }
-  

@@ -1,20 +1,11 @@
 import React from 'react'
-import Plate from '../../assets/images/Plate'
-import { Ellipse} from '../../assets/images/Logo'
-import './Home.css'
-import styled from 'styled-components'
-import PaintBrushSvg from '../../assets/images/PaintBrushSvg.svg'
-import thumbsUp from '../../assets/images/thumbsUp.png'
-import kitchen_show from '../../assets/images/kitchen_show.jpeg'
 
-const PaintBrushText=styled.span`
-    background: url(${PaintBrushSvg});
-    background-size: contain; 
-    background-repeat: no-repeat;
-    display: inline-block;
-    color: white;
-    padding: 6px 30px;
-`;
+import thumbsUp from './homepageImage/thumbsUp.png'
+import KitchenShow from './KitchenShow'
+import Services from './Services'
+import HomePageFirst from './HomePageFirst'
+import './Home.css'
+import MenuSlider from './MenuSlider'
 
 const Home = () => {
   const Menus =[
@@ -24,29 +15,7 @@ const Home = () => {
   ];
   return (
     <div>
-    <div className='home-page'>
-      <div className='home-content'>
-          <p style={{color:'var(--neutral)', marginBottom:'-20px'}}> RESTURANT</p>
-          <div className='big-text-one'>
-          <p>The <PaintBrushText>#One</PaintBrushText>
-            </p>
-            <p>Momo <span style={{color:'var(--primary)'}}>Resturant</span></p>
-          </div>  
-          <p style={{fontSize:'20px',fontWeight:'600',lineHeight:'120%'}}>
-            More than <span className='big-text-three' style={{color:'var(--primary)'}}>20+ Varieties</span> of momo available for you</p>
-          <button className='home-content-button'>
-            Explore Food Menu
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg> 
-          </button>
-      </div>
-      <div>
-      <div className='plate-image'><Plate/></div>
-      <div className='ellipse-orange'><Ellipse/></div>
-      
-    </div>
-    </div>
+    <HomePageFirst/>
     <div className="home_about_us">
       <div className="about_us_image">
         <img src={thumbsUp} alt='thumbsUp'/>
@@ -69,9 +38,7 @@ const Home = () => {
           <button className='home-content-button' key={item.id}>{item.value}</button>
         ))}
     </div>
-      <div>
-        <h1>Photos</h1>
-      </div>
+        <MenuSlider/>
       <div>
         <button className="home-content-button">Explore Our Menu</button>
       </div>
@@ -80,9 +47,8 @@ const Home = () => {
       <div className="recipe_they_want big-text-two">
         <p><span style={{color:'var(--primary)'}}>We Offer People </span> The Service They Want</p></div>
     </div>
-    <div className='kitchen-show'>
-      
-    </div>
+    <KitchenShow/>
+    <Services/>
     </div>
   )
 }
