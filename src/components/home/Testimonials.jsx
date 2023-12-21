@@ -25,9 +25,13 @@ const Testimonials = () => {
                 {item.Name}</div>
             </div>
           ))}
-          <div >
-              <button>Left</button>
-              <button>right</button>
+          <div className='slider-button' >
+              <button className='arrow-button'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6668 8L3.3335 8M3.3335 8L7.3335 12M3.3335 8L7.3335 4" stroke="#252D43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></button>
+              <button className='arrow-button'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.3335 8H12.6668M12.6668 8L8.66683 4M12.6668 8L8.66683 12" stroke="#252D43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></button>
           </div>
         </div>
       </div>

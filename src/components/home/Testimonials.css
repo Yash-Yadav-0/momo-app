@@ -3,6 +3,7 @@
     padding: 80px 156px;
     gap: 96px;
     align-items: center;
+    justify-content: center;
   }
 .testimonials_slider{
   display: flex;
@@ -20,6 +21,9 @@
   flex-direction: column;
   width: fit-content;
   max-width: 576px;
+  padding: 10px 10px;
   gap: 24px;
   align-items: flex-start;
+  background-color: rgb(255, 249, 241);
+  border-radius: 30px;
 }
