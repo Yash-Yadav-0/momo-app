@@ -1,0 +1,25 @@
+.testimonials{
+    display: flex;
+    padding: 80px 156px;
+    gap: 96px;
+    align-items: center;
+  }
+.testimonials_slider{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+.chillimage{
+  width: 456px;
+  height: 576px;
+  display: flex;
+}
+.quotes{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 576px;
+  gap: 24px;
+  align-items: flex-start;
+}

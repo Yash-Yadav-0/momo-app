@@ -6,6 +6,7 @@ import Services from './Services'
 import HomePageFirst from './HomePageFirst'
 import './Home.css'
 import MenuSlider from './MenuSlider'
+import Testimonials from './Testimonials'
 
 const Home = () => {
   const Menus =[
@@ -49,6 +50,7 @@ const Home = () => {
     </div>
     <KitchenShow/>
     <Services/>
+    <Testimonials/>
     </div>
   )
 }

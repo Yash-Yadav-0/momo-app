@@ -94,6 +94,8 @@
 }
 .menuSlider-Card{
   background-color: whitesmoke;
+  border-radius: 30px;
+
 }
 .menuSliderImage{
   width: 260px;
