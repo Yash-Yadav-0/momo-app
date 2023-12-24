@@ -1,8 +1,9 @@
 import React from 'react'
-import { Facebook, Instagram, Tiktok } from '../../assets/images/Logo'
-import HomeContactRight from './HomeContactRight'
+import { Facebook, Instagram, Tiktok } from '../../../assets/images/Logo'
+import HomeSixthRight from './HomeSixthRight'
+import './HomeContact.css'
 
-const HomeContact = () => {
+const HomeSixth = () => {
   return (
     <div className="home-contact">
         <div className="home-contact-heading">
@@ -54,16 +55,16 @@ const HomeContact = () => {
           <div>
             <p>Get in touch in social networks</p>
             <div style={{display:'flex',gap:'10px'}}>
-              <Facebook/>
-              <Instagram/>
-              <Tiktok/>
+            <button><Facebook/></button>
+            <button><Instagram/></button>
+            <button><Tiktok/></button>
             </div>
           </div>
         </div>
-        <HomeContactRight/>
+        <HomeSixthRight/>
         </div>
     </div>
   )
 }
 
-export default HomeContact
+export default HomeSixth

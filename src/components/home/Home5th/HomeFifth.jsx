@@ -1,10 +1,10 @@
 import React from 'react';
-import chillimage from './homepageImage/chillimage.jpeg';
-import './Testimonials.css';
-import '../../index.css'
-import { Quotes } from '../../constants/Quotes';
+import chillimage from '../homepageImage/chillimage.jpeg'
+import './HomeFifth.css';
+import '../Home.css';
+import { Quotes } from '../../../constants/Quotes';
 
-const Testimonials = () => {
+const HomeFifth = () => {
   return (
     <div className="testimonials">
       <div className="testimonials_slider">
@@ -42,4 +42,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default HomeFifth;

@@ -1,7 +1,7 @@
 import React from 'react'
-import BuffMomo from './homepageImage/BuffMomo.png'
-import BuffFryMomo from './homepageImage/BuffFryMomo.png'
-import BuffCMomo from './homepageImage/BuffCMomo.png'
+import BuffMomo from '../homepageImage/BuffMomo.png'
+import BuffFryMomo from '../homepageImage/BuffFryMomo.png'
+import BuffCMomo from '../homepageImage/BuffCMomo.png'
 
 
 const BuffMenuData=[

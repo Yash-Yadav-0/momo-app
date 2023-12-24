@@ -1,5 +1,5 @@
 import React from 'react'
-import {QualityFood_Logo, PrivateParty_Logo, Categring_Logo} from './services_logoImage/ServiceLogo'
+import {QualityFood_Logo, PrivateParty_Logo, Categring_Logo} from '../homepageImage/ServiceLogo'
 import './Services.css'
 import Card from './Card'
 

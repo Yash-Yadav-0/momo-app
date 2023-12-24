@@ -1,9 +1,9 @@
 import React from 'react'
-import Plate from './homepageImage/Plate'
-import { Ellipse} from '../../assets/images/Logo'
+import Plate from '../homepageImage/Plate'
+import { Ellipse} from '../../../assets/images/Logo'
 import styled from 'styled-components'
-import PaintBrushSvg from '../../assets/images/PaintBrushSvg.svg'
-import './Home.css'
+import PaintBrushSvg from '../../../assets/images/PaintBrushSvg.svg'
+import '../Home.css'
 
 
 const PaintBrushText=styled.span`
@@ -15,7 +15,7 @@ const PaintBrushText=styled.span`
     padding: 6px 30px;
 `;
 
-const HomePageFirst = () => {
+const HomeFirst = () => {
   return (
     <div className='home-page'>
       <div className='home-content'>
@@ -34,13 +34,12 @@ const HomePageFirst = () => {
               </svg> 
           </button>
       </div>
-      <div>
-      <div className='plate-image'><Plate/></div>
-      <div className='ellipse-orange'><Ellipse/></div>
-      
+      <div className='home-content-right'>
+        <div className='plate-image'><Plate/></div>
+        <div className='ellipse-orange'><Ellipse/></div>
     </div>
     </div>
   )
 }
 
-export default HomePageFirst
+export default HomeFirst;
