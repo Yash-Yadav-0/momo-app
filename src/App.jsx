@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/header/Navbar';
 import Home from './components/home/Home';
 import NoPage from './components/NoPage';
+import Advice from './components/Advice';
 
 const App = () => {
   return (
@@ -17,8 +18,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/ourMenu" element={<OurMenu />} />
-          <Route path="/ourServices" element={<OurServices />} />
+          <Route path="/our-menu" element={<OurMenu />} />
+          <Route path="/our-services" element={<OurServices />} />
+          <Route path='/allergy-advices' element={<Advice/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Routes>

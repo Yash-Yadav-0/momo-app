@@ -21,9 +21,14 @@ const HomeSixthRight = () => {
   };
 
   const handleSubmit = (e) => {
-    console.log(formData);
     e.preventDefault();
-    //SUbmission Logic {}
+    const isEmptyField = Object.values(formData).some((value) => value.trim() === '');
+  
+    if (isEmptyField) {
+      console.log('Please fill in all fields');
+    } else {
+      console.log('Form submitted successfully!');
+    }
   };
 
   const defaultCountry = "NP"; 
