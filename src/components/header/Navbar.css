@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
+    padding-right: 1.5rem;
     box-shadow: 0 1px 1px 0 #00000026;
   }
   .logo-container {
@@ -44,7 +45,7 @@
     line-height: 36px; 
     text-decoration: none;
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .nav {
         display: flex;
         gap:10px;
@@ -66,8 +67,8 @@
         margin: 1px;
 
     }
-  }
-  @media (max-width:450px){
+  } */
+  @media (max-width:640px){
     .button-container{
       display: none;
     }

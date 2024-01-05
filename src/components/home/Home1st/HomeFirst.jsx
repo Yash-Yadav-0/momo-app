@@ -1,9 +1,10 @@
 import React from 'react'
 import Plate from '../homepageImage/Plate'
 import { Ellipse} from '../../../assets/images/Logo'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import PaintBrushSvg from '../../../assets/images/PaintBrushSvg.svg'
-import '../Home.css'
+import './HomeFirst.css'
 
 
 const PaintBrushText=styled.span`
@@ -27,12 +28,14 @@ const HomeFirst = () => {
           </div>  
           <p style={{fontSize:'20px',fontWeight:'600',lineHeight:'120%'}}>
             More than <span className='big-text-three' style={{color:'var(--primary)'}}>20+ Varieties</span> of momo available for you</p>
-          <button className='home-content-button'>
+
+          <Link to='/our-menu' className='home-content-button'>
             Explore Food Menu
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg> 
-          </button>
+              </svg> }
+          </Link>
+
       </div>
       <div className='home-content-right'>
         <div className='plate-image'><Plate/></div>
