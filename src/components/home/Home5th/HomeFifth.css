@@ -1,22 +1,22 @@
-.testimonials{
-    display: flex;
-    padding: 80px 156px;
-    gap: 96px;
-    align-items: center;
-    justify-content: center;
-  }
-.testimonials_slider{
+.testimonials {
+  display: flex;
+  padding: 80px 156px;
+  gap: 96px;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials_slider {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 56px;
 }
-.chillimage{
+.chillimage {
   width: 456px;
   height: 576px;
   display: flex;
 }
-.quotes{
+.quotes {
   display: flex;
   flex-direction: column;
   width: fit-content;

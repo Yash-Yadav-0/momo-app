@@ -1,74 +1,79 @@
-.home-contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 64px 156px;
-  }
-  .home-contact-heading{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-direction: column;
-  }
-  .home-contact-content{
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    gap: 40px;
-    contain: content;
-    border-radius: 24px;
-    box-shadow: 0px 0.221px 2.795px 0px rgba(0, 0, 0, 0.01), 0px 0.532px 6.717px 0px rgba(0, 0, 0, 0.02), 0px 1.002px 12.647px 0px rgba(0, 0, 0, 0.03), 0px 1.787px 22.56px 0px rgba(0, 0, 0, 0.03), 0px 3.342px 42.195px 0px rgba(0, 0, 0, 0.04), 0px 8px 101px 0px rgba(0, 0, 0, 0.05);
-  }
-  .home-contact-left{
-    display: flex; 
-    flex-direction: column;
-    padding: 32px;
-    align-items:flex-start;
-    gap: 40px;
-    max-width: 461px auto;
-    border-radius: 16px;
-    background-color: var(--secondary);
-    color: white;
-  }
-.home-contact-right{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    padding: 40px 24px;
-    border-radius: 16px;
-  }
-  .form-text-field{
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    height: 83px;
-    align-self: stretch;
-    flex-direction: column;
-  }
-  .form-input-field{
-    display: flex;
-    height: 40px;
-    padding: 16px 0px;
-    border-radius: 5px;
-    padding-left: 5px;
-    align-items: center;
-    gap: 8px;
-    align-self: stretch;
-  }
-  .PhoneInputCountrySelect {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    border: 0;
-    opacity: 0;
-    cursor: pointer;
-  }
+.home-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 64px 156px;
+}
+.home-contact-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+.home-contact-content {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 40px;
+  contain: content;
+  border-radius: 24px;
+  box-shadow: 0px 0.221px 2.795px 0px rgba(0, 0, 0, 0.01),
+    0px 0.532px 6.717px 0px rgba(0, 0, 0, 0.02),
+    0px 1.002px 12.647px 0px rgba(0, 0, 0, 0.03),
+    0px 1.787px 22.56px 0px rgba(0, 0, 0, 0.03),
+    0px 3.342px 42.195px 0px rgba(0, 0, 0, 0.04),
+    0px 8px 101px 0px rgba(0, 0, 0, 0.05);
+}
+.home-contact-left {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 461px auto;
+  border-radius: 16px;
+  background-color: var(--secondary);
+  color: white;
+}
+.home-contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 40px 24px;
+  border-radius: 16px;
+}
+.form-text-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  height: 83px;
+  align-self: stretch;
+  flex-direction: column;
+}
+.form-input-field {
+  display: flex;
+  height: 40px;
+  padding: 16px 0px;
+  border-radius: 5px;
+  padding-left: 5px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.PhoneInputCountrySelect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+}
 
-.PhoneInputInput{
+.PhoneInputInput {
   min-width: 0;
   height: 45px;
   width: max-content;
@@ -76,7 +81,7 @@
   border-radius: 5px;
 }
 .resizable-textarea {
-  resize: both; 
-  overflow: auto; 
+  resize: both;
+  overflow: auto;
   border-radius: 5px;
 }

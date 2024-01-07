@@ -1,69 +1,68 @@
-
-  .home_about_us{
-    display: flex;
-    background-color: white;
-    gap:86px;
-    padding: 64px 156px;
-    justify-content: center;
-    align-items: center;
-  }
-  .about_us_content{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
-    height: auto;
-  }
-  .recipes_home,
-  .recipes_home_heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-.recipes_button{
+.home_about_us {
+  display: flex;
+  background-color: white;
+  gap: 86px;
+  padding: 64px 156px;
+  justify-content: center;
+  align-items: center;
+}
+.about_us_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  height: auto;
+}
+.recipes_home,
+.recipes_home_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.recipes_button {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
-.recipe_they_want{
+.recipe_they_want {
   display: flex;
   justify-content: center;
   padding: 80px 156px;
 }
 /*Menu Slider in Home page */
-.menuSlider{
+.menuSlider {
   display: flex;
   gap: 44px;
 }
-.menuSlider-Card{
+.menuSlider-Card {
   background-color: whitesmoke;
   border-radius: 30px;
-
 }
-.menuSliderImage{
+.menuSliderImage {
   width: 260px;
   height: 189px;
   flex-shrink: 0;
 }
-.menuSliderImageDiv{
+.menuSliderImageDiv {
   display: flex;
   padding: 34px 14px 33px 14px;
 }
-.menuSliderTextSection{
+.menuSliderTextSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.slick-slide >div{
+.slick-slide > div {
   margin: 0 10px;
 }
 
 /*Process Behind The making background*/
-.kitchen-show{
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('./homepageImage/kitchen_show.jpeg');
+.kitchen-show {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+    url("./homepageImage/kitchen_show.jpeg");
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
@@ -78,9 +77,9 @@
   position: relative;
   gap: 10px;
 }
-.homepage-map{
-padding: 20px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.homepage-map {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

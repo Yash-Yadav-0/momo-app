@@ -22,16 +22,18 @@ const HomeSixthRight = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const isEmptyField = Object.values(formData).some((value) => value.trim() === '');
-  
+    const isEmptyField = Object.values(formData).some(
+      (value) => value.trim() === "",
+    );
+
     if (isEmptyField) {
-      console.log('Please fill in all fields');
+      console.log("Please fill in all fields");
     } else {
-      console.log('Form submitted successfully!');
+      console.log("Form submitted successfully!");
     }
   };
 
-  const defaultCountry = "NP"; 
+  const defaultCountry = "NP";
 
   return (
     <div className="home-contact-right">
@@ -109,8 +111,7 @@ const HomeSixthRight = () => {
             borderRadius: "100px",
             background: "var(--primary)",
             marginTop: "8px",
-          }}
-        >
+          }}>
           Send Message
         </button>
       </form>

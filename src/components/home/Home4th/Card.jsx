@@ -1,6 +1,5 @@
-import React from 'react';
-import './Services.css'
-
+import React from "react";
+import "./Services.css";
 
 const Card = ({ title, text, logo }) => {
   return (
